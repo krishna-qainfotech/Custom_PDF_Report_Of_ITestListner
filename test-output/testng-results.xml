@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="329" started-at="2018-09-20T10:50:49Z" finished-at="2018-09-20T10:50:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="329" started-at="2018-09-20T10:50:49Z" finished-at="2018-09-20T10:50:49Z">
+      <class name="com.qainfotech.com.Create_Index_html_Using_ITestListener.Report">
+        <test-method status="PASS" signature="Capabilities()[pri:0, instance:com.qainfotech.com.Create_Index_html_Using_ITestListener.Report@e25b2fe]" name="Capabilities" is-config="true" duration-ms="77" started-at="2018-09-20T10:50:49Z" finished-at="2018-09-20T10:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Capabilities -->
+        <test-method status="PASS" signature="testRealReportOne()[pri:0, instance:com.qainfotech.com.Create_Index_html_Using_ITestListener.Report@e25b2fe]" name="testRealReportOne" duration-ms="5" started-at="2018-09-20T10:50:49Z" finished-at="2018-09-20T10:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRealReportOne -->
+        <test-method status="PASS" signature="testRealReportTwo()[pri:0, instance:com.qainfotech.com.Create_Index_html_Using_ITestListener.Report@e25b2fe]" name="testRealReportTwo" duration-ms="1" started-at="2018-09-20T10:50:49Z" finished-at="2018-09-20T10:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRealReportTwo -->
+        <test-method status="PASS" signature="testRealReportThree()[pri:0, instance:com.qainfotech.com.Create_Index_html_Using_ITestListener.Report@e25b2fe]" name="testRealReportThree" duration-ms="226" started-at="2018-09-20T10:50:49Z" depends-on-methods="com.qainfotech.com.Create_Index_html_Using_ITestListener.Report.testRealReportTwo" finished-at="2018-09-20T10:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRealReportThree -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.qainfotech.com.Create_Index_html_Using_ITestListener.Report@e25b2fe]" name="GenerateReport" is-config="true" duration-ms="1" started-at="2018-09-20T10:50:49Z" finished-at="2018-09-20T10:50:49Z">
+          <reporter-output>Report@e25b2fe
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.qainfotech.com.Create_Index_html_Using_ITestListener.Report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name=" Search Automated Test Suite" preserve-order="true" thread-count="1" parallel = "tests">
+
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners>	
+	
+	<test name="Search Test">
+		<classes>
+			<class name="com.qainfotech.com.Create_Index_html_Using_ITestListener.Report" />
+    	</classes>
+	</test>
+	
+	<!-- <test name="Search Test 2">
+		<classes>
+			<class name="com.qait.demo.tests.Search_Test" />
+			<class name="com.qait.demo.tests.Search_Test1" />
+		</classes>
+	</test> -->
+	
+
+</suite>
